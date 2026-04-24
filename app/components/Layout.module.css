@@ -1,0 +1,282 @@
+/* components/Layout.module.css */
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  gap: 24px;
+}
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto; /* уводит блок вправо */
+}
+
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 10px 60px;
+
+}
+
+
+.navLink {
+  position: relative;
+  padding-bottom: 3px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #0020c2, #ad0000);
+  transition: width 0.25s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+
+
+/* Hamburger */
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  margin-left: auto;
+}
+
+.burgerBtn {
+  display: none;
+}
+
+.desktopNav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.mobileMenuDropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-top: 0.5px solid #f0f0f0;
+  border-bottom: 0.5px solid #f0f0f0;
+  padding: 8px 20px 16px;
+  z-index: 100;
+}
+
+.hamburgerLine {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #111827;
+  border-radius: 2px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Mobile dropdown menu */
+
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+  padding: 8px 0 16px;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileNavLink {
+  padding: 13px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f4f6;
+  transition: background-color 0.15s ease;
+}
+
+.mobileNavLink:hover {
+  background-color: #ffffff;
+}
+
+.mobileLangRow {
+  padding: 14px 24px 2px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .headerRight {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .burgerBtn {
+    display: flex;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .headerInner {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobileMenuDropdown {
+    display: none !important;
+  }
+}
+
+/* Footer – синий фон, лёгкий апгрейд */
+
+.footer {
+  background: #0020c0;
+  color: #eee;
+  padding: 54px 0 24px;
+  margin-top: 0;
+  position: relative;
+}
+
+/* тонкая линия сверху, как аккуратный акцент */
+.footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0050e6, #ad0000);
+}
+
+.footerInner {
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr 1fr;
+  gap: 40px;
+}
+
+/* описание компании */
+.desc {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* заголовки колонок */
+.columnTitle {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ссылки навигации */
+.link {
+  display: block;
+  margin-bottom: 8px;
+  opacity: 0.8;
+  font-size: 16px;
+  transition: 0.18s ease;
+}
+.link:hover {
+  opacity: 1;
+  color: #ffffff;
+  transform: translateX(2px);
+}
+
+/* блок с контактами — сделаем более читабельным */
+.right {
+  font-size: 16px;
+  line-height: 0.9;
+}
+
+/* нижняя строка */
+.bottom {
+  margin-top: 42px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  padding-top: 16px;
+}
+
+.contactLink {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.18s ease;
+  margin-bottom: 10px;
+}
+
+.contactLink:hover {
+  opacity: 1;
+  color: #ffffff;
+}
+
+/* адаптив */
+@media (max-width: 600px) {
+  .footerInner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .right,
+  .desc,
+  .link {
+    font-size: 14px;
+  }
+}

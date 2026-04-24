@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "stockList": "Maschinenbestand",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "latestTitle": "Zuletzt hinzugefügte Maschinen",
+    "seeFullStock": "Gesamten Bestand anzeigen",
+    "ctaEyebrow": "Kontakt aufnehmen",
+    "ctaText": "Nicht sicher, welche Maschine zu Ihrer Produktion passt?",
+    "ctaTextStrong": "Wir besprechen gemeinsam die Möglichkeiten",
+    "ctaButton": "Kontakt aufnehmen"
+  },
+
+  "about": {
+    "title": "Wings Graphic Machinery",
+    "p1": "Wir handeln mit gebrauchten Maschinen für Druckereien, Verpackungshersteller und verwandte Industrien in ganz Europa und darüber hinaus.",
+    "p2": "Unser Fokus liegt auf Vorstufen-Systemen, Bogen- und Rollendruckmaschinen, Weiterverarbeitungsanlagen und Verpackungsmaschinen. Klare Informationen und realistische Preise vom ersten Kontakt bis zur laufenden Maschine.",
+    "chip1": "Druck & Verpackung",
+    "chip2": "Europa & Export",
+    "chip3": "EN · DE Support"
+  },
+
+  "about_page": {
+    "heroEyebrow": "Über uns",
+    "heroFallbackTitle": "WingsGM",
+    "heroFallbackSubtitle": "Gebrauchte Maschinen für Druckereien – Vorstufe, Druck und Weiterverarbeitung – in Europa und weltweit.",
+    "highlight1": "Maschinen verkaufen",
+    "highlight2": "Maschinen kaufen",
+    "highlight3": "Projektbegleitung",
+    "introLead": "WingsGM handelt mit gebrauchten Maschinen für Druckereien: Vorstufen-Systeme, Bogen- und Rollendruckmaschinen sowie ein breites Spektrum an Weiterverarbeitungsanlagen.",
+    "introPoint1": "Europa & Export",
+    "introPoint2": "Vorstufe · Druck · Weiterverarbeitung",
+    "introPoint3": "Fokussierte Langzeitprojekte",
+    "sellingEyebrow": "Verkauf",
+    "sellingTitle": "Verkauf gebrauchter Maschinen für Druckereien",
+    "sellingTag": "Schwerpunkt",
+    "sellingText": "Unser Hauptgeschäft ist der Verkauf gebrauchter Maschinen für Druckereien: Druckmaschinen, Weiterverarbeitungslinien und unterstützende Anlagen. Das Ziel ist nicht nur, eine Maschine zu vermitteln, sondern sicherzustellen, dass sie zur jeweiligen Produktion passt.",
+    "sellingList1": "Offset- und Digitaldruckmaschinen",
+    "sellingList2": "Weiterverarbeitung: Schneiden, Falzen, Binden u. v. m.",
+    "sellingList3": "Vorstufen- und ergänzende Anlagen",
+    "sellingList4": "Projekte in Europa und weltweiter Export",
+    "sellingBadge": "Für Käufer",
+    "sellingVisualText": "Klare Informationen über Maschinenzustand, Historie und Zeitplan – von Beginn des Projekts an.",
+    "buyingEyebrow": "Ankauf",
+    "buyingTitle": "Wir kaufen auch Maschinen an",
+    "buyingText": "Wenn Sie Ihren Drucksaal modernisieren, eine Linie umstrukturieren oder stilllegen, können wir Ihre Maschinen ankaufen oder über unser Netzwerk an vertrauenswürdige Partner weitervermitteln.",
+    "buyingList1": "Schnelle und realistische Rückmeldung zu Ihren Nachfrage",
+    "buyingList2": "Beratung auf Basis aktueller Marktbedingungen",
+    "buyingList3": "Seriöse und bei Bedarf diskrete Abwicklung",
+    "buyingBadge": "Für Verkäufer",
+    "buyingVisualText": "Sie wissen, was als Nächstes kommt: Bewertung, Preisindikation und mögliche Vertragsstrukturen.",
+    "servicesEyebrow": "Dienstleistungen",
+    "servicesTitle": "Beratung & Projektbegleitung",
+    "servicesText": "Wir ersetzen keine Techniker oder Spediteure. Unsere Aufgabe ist es, die einzelnen Schritte zu einem klaren, strukturierten Projekt für Sie zu verbinden.",
+    "service1Title": "Vor der Entscheidung",
+    "service1Text": "Kurzberatungen zu Modellen, Konfiguration und dem, was für Ihre Produktion und Ihr Budget sinnvoll ist.",
+    "service2Title": "Vor-Ort & Logistik",
+    "service2Text": "Unterstützung bei der Organisation von Besichtigung, Demontage, Verladung und Transport – gemeinsam mit erfahrenen Partnern.",
+    "langsTitle": "Wir sprechen Ihre Sprache",
+    "langsSubtitle": "Englisch und Deutsch – damit Sie in der Sprache verhandeln und unterschreiben können, die Sie täglich im Geschäftsalltag verwenden.",
+    "lang1Label": "English",
+    "lang1Desc": "International projects, contracts and documentation.",
+    "lang2Label": "Deutsch",
+    "lang2Desc": "Direkter Kontakt mit deutschsprachigen Kunden und Partnern."
+  },
+
+  "contact": {},
+
+  "contact_page": {
+    "heroEyebrow": "Get in touch",
+    "heroTitle": "Wings Graphic Machinery kontaktieren ",
+    "heroSubtitle": "Teilen Sie uns mit, welche gebrauchten Druckmaschinen Sie suchen – oder welche Maschinen Sie verkaufen möchten.",
+    "infoTitle": "Kontaktdaten",
+    "infoText": "Erreichen Sie uns per Telefon, E-Mail oder über das Kontaktformular.",
+    "labelPhone": "Telefon",
+    "labelEmail": "E-Mail",
+    "labelLocation": "Standort",
+    "locationValue": "Wings Graphic Machinery, Wien, Österreich",
+    "infoNote": "Wir beraten auf Englisch und Deutsch und arbeiten mit Kunden in ganz Europa und darüber hinaus.",
+    "formTitle": "Senden Sie uns Ihre Anfrage",
+    "formSubtitle": "Beschreiben Sie kurz, was Sie suchen – Format, Hersteller, Baujahr, Budget – oder welche Maschinen Sie verkaufen möchten.",
+    "fieldName": "Ihr Name *",
+    "fieldCompany": "Unternehmen",
+    "fieldCountry": "Land",
+    "fieldPhone": "Telefon",
+    "fieldEmail": "E-Mail *",
+    "fieldMessage": "Nachricht *",
+    "buttonSend": "Nachricht senden",
+    "buttonSending": "Wird gesendet…",
+    "statusOk": "Vielen Dank – wir melden uns in Kürze bei Ihnen.",
+    "statusSub": "Wir melden uns so schnell wie möglich bei Ihnen.",
+    "statusError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
+  },
+
+  "stock": {},
+
+  "stock_page": {
+    "kicker": "Gebrauchte Druckmaschinen",
+    "title": "Maschinenbestand",
+    "subtitle": "Durchsuchen Sie verfügbare Maschinen und nutzen Sie die Filter links, um die richtige Presse für Ihre Produktion zu finden.",
+    "found": "Gefunden",
+    "foundMachine": "Maschine",
+    "foundMachines": "Maschinen",
+    "noResults": "Keine Maschinen entsprechen Ihren Filterkriterien.",
+    "seeMore": "mehr ansehen →",
+    "resetFilters": "Filter zurücksetzen",
+    "filterCategory": "Kategorie",
+    "filterBrand": "Hersteller",
+    "filterYear": "Baujahr",
+    "filterLocation": "Standort",
+    "filterStatus": "Status",
+    "filterAll": "Alle"
+  },
+
+  "machine_page": {
+    "back": "← Zurück",
+    "description": "Beschreibung",
+    "details": "Maschinendetails",
+    "labelBrand": "Hersteller:",
+    "labelYear": "Baujahr:",
+    "labelFormat": "Format:",
+    "labelLocation": "Standort:",
+    "labelStatus": "Status:",
+    "labelPrice": "Preis:",
+    "formTitle": "E-Mail-Anfrage senden",
+    "formIntro": "Hinterlassen Sie uns eine Nachricht zu",
+    "formIntroEnd": "und wir melden uns in Kürze bei Ihnen.",
+    "fieldContactName": "Ansprechpartner *",
+    "fieldCompanyName": "Unternehmen",
+    "fieldCountry": "Land",
+    "fieldPhone": "Telefon",
+    "fieldEmail": "E-Mail *",
+    "fieldMessage": "Nachricht",
+    "buttonSend": "Anfrage senden",
+    "buttonSending": "Wird gesendet...",
+    "successMsg": "Ihre Anfrage wurde gesendet.",
+    "errorMsg": "Fehler"
+  },
+
+  "footer": {
+    "desc": "Händler für gebrauchte Druckmaschinen mit Sitz in Europa. Hochwertige Maschinen von namhaften Herstellern.",
+    "navTitle": "Navigation",
+    "stockList": "Maschinenbestand",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "contactsTitle": "Kontaktdaten",
+    "email": "Email: office@wingsgm.com",
+    "phone": "Telefon: +43 677 647 595 08",
+    "location": "Standort: Wien, Österreich / EU",
+    "rights": "Alle Rechte vorbehalten."
+  },
+
+  "machine": {
+    "brand": "Hersteller",
+    "year": "Baujahr",
+    "format": "Format",
+    "location": "Standort",
+    "price": "Preis"
+  }
+}

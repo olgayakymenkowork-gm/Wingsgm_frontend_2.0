@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "stockList": "Stock List",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "latestTitle": "Recently added machines",
+    "seeFullStock": "See full stock list",
+    "ctaEyebrow": "Get in touch",
+    "ctaText": "Not sure which machine fits your production?",
+    "ctaTextStrong": "We can talk through a few options",
+    "ctaButton": "Contact us"
+  },
+
+  "about": {
+    "title": "Wings Graphic Machinery",
+    "p1": "We work with used equipment for print shops, packaging producers and allied industries across Europe and beyond.",
+    "p2": "Our focus is on prepress systems, sheet-fed and web presses, finishing and postpress equipment — and packaging machinery. Clear information and realistic pricing from first contact to running machine.",
+    "chip1": "Print & Packaging",
+    "chip2": "Across Europe & export",
+    "chip3": "EN · DE support"
+  },
+
+  "about_page": {
+    "heroEyebrow": "About us",
+    "heroFallbackTitle": "WingsGM",
+    "heroFallbackSubtitle": "Used equipment for print shops – prepress, presses and finishing – across Europe and beyond.",
+    "highlight1": "Sell equipment",
+    "highlight2": "Buy equipment",
+    "highlight3": "Project support",
+    "introLead": "WingsGM works with used equipment for printing companies: prepress systems, sheet-fed and web presses, and a wide range of finishing / postpress machines. Our focus is on clear information and a project that feels organised from start to finish.",
+    "introPoint1": "Across Europe & export",
+    "introPoint2": "Prepress · Press · Postpress",
+    "introPoint3": "Focused, long-term projects",
+    "sellingEyebrow": "Selling",
+    "sellingTitle": "Selling used equipment for print shops",
+    "sellingTag": "Main focus",
+    "sellingText": "Our primary work is selling used equipment for printing companies: presses, finishing lines and supporting machines. The goal is not just to move a machine, but to make sure it fits the production it is going into.",
+    "sellingList1": "Offset and digital printing presses",
+    "sellingList2": "Finishing / postpress: cutting, folding, binding, etc.",
+    "sellingList3": "Prepress and complementary equipment",
+    "sellingList4": "Projects across Europe and overseas export",
+    "sellingBadge": "For buyers",
+    "sellingVisualText": "Clear information about machine condition, history and timing from the beginning of the project.",
+    "buyingEyebrow": "Buying",
+    "buyingTitle": "We also buy equipment",
+    "buyingText": "When you upgrade your press room, reorganise or close a line, we can buy your machines or offer them to trusted partners in our network.",
+    "buyingList1": "Quick and realistic feedback on your offers",
+    "buyingList2": "Guidance based on current market conditions",
+    "buyingBadge": "For sellers",
+    "buyingVisualText": "You know what the next steps are: evaluation, price indication and possible deal structures.",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Consultations & project support",
+    "servicesText": "We are not trying to replace technicians or transport companies. Our role is to connect the main steps into one clear project for you.",
+    "service1Title": "Before you decide",
+    "service1Text": "Short consultations about models, configuration and what makes sense for your production and budget.",
+    "service2Title": "On-site & logistics",
+    "service2Text": "Support with organising inspection, dismantling, loading and transport together with experienced partners.",
+    "langsTitle": "We speak your language",
+    "langsSubtitle": "English and Deutsch – so you can discuss, negotiate and sign in the language you use every day at work.",
+    "lang1Label": "English",
+    "lang1Desc": "International projects, contracts and documentation.",
+    "lang2Label": "Deutsch",
+    "lang2Desc": "Direkter Kontakt mit deutschsprachigen Kunden und Partnern."
+  },
+
+  "contact": {},
+
+  "contact_page": {
+    "heroEyebrow": "Get in touch",
+    "heroTitle": "Contact Wings Graphic Machinery",
+    "heroSubtitle": "Let us know what kind of used printing machinery you are looking for – or which machines you would like to sell. We buy, sell and support projects across Europe.",
+    "infoTitle": "Contact details",
+    "infoText": "Reach us by phone, email or via the contact form on the right.",
+    "labelPhone": "Phone",
+    "labelEmail": "E-mail",
+    "labelLocation": "Location",
+    "locationValue": "Wings Graphic Machinery, Vienna, Austria",
+    "infoNote": "We consult in English and German and work with clients across Europe and beyond.",
+    "formTitle": "Send us your request",
+    "formSubtitle": "Tell us briefly what you are looking for – format, brand, year, budget – or which machines you would like to sell.",
+    "fieldName": "Your name *",
+    "fieldCompany": "Company",
+    "fieldCountry": "Country",
+    "fieldPhone": "Phone",
+    "fieldEmail": "E-mail *",
+    "fieldMessage": "Message *",
+    "buttonSend": "Send message",
+    "buttonSending": "Sending…",
+    "statusOk": "Thank you – we will get back to you shortly.",
+    "statusSub": "We will get back to you as soon as possible.",
+    "statusError": "Something went wrong. Please try again later."
+  },
+
+  "stock": {},
+
+  "stock_page": {
+    "kicker": "Used printing machinery",
+    "title": "Machinery stock list",
+    "subtitle": "Browse available machines and use the filters on the left to find the right press for your production.",
+    "found": "Found",
+    "foundMachine": "machine",
+    "foundMachines": "machines",
+    "noResults": "No machines match your filters.",
+    "seeMore": "see more →",
+    "resetFilters": "Reset filters",
+    "filterCategory": "Category",
+    "filterBrand": "Brand",
+    "filterYear": "Year",
+    "filterLocation": "Location",
+    "filterStatus": "Status",
+    "filterAll": "All"
+  },
+
+  "machine_page": {
+    "back": "← Back",
+    "description": "Description",
+    "details": "Machine details",
+    "labelBrand": "Brand:",
+    "labelYear": "Year:",
+    "labelFormat": "Format:",
+    "labelLocation": "Location:",
+    "labelStatus": "Status:",
+    "labelPrice": "Price:",
+    "formTitle": "Send us E-mail Request",
+    "formIntro": "Please leave us a message about",
+    "formIntroEnd": "and we will get back to you soon.",
+    "fieldContactName": "Contact Name *",
+    "fieldCompanyName": "Company Name",
+    "fieldCountry": "Country",
+    "fieldPhone": "Your Phone",
+    "fieldEmail": "E-mail *",
+    "fieldMessage": "Message",
+    "buttonSend": "Send request",
+    "buttonSending": "Sending...",
+    "successMsg": "Your request has been sent.",
+    "errorMsg": "Error"
+  },
+
+  "footer": {
+    "desc": "Used printing machinery dealer based in Europe. Quality equipment from trusted brands.",
+    "navTitle": "Navigation",
+    "stockList": "Stock List",
+    "about": "About Us",
+    "contact": "Contact",
+    "contactsTitle": "Contacts",
+    "email": "Email: office@wingsgm.com",
+    "phone": "Phone: +43 677 647 595 08",
+    "location": "Location: Austria / EU",
+    "rights": "All rights reserved."
+  },
+
+  "machine": {
+    "brand": "Brand",
+    "year": "Year",
+    "format": "Format",
+    "location": "Location",
+    "price": "Price"
+  }
+}
