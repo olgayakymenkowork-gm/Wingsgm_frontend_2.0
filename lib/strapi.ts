@@ -283,7 +283,6 @@ export interface StockMachine {
 export interface StockFilterOptions {
   categories: string[];
   brands: string[];
-  years: number[];
   locations: string[];
   formats: string[];
   statuses: string[];
@@ -371,7 +370,6 @@ export async function getStockFilterOptions(): Promise<StockFilterOptions> {
 
   const categories = new Set<string>();
   const brands = new Set<string>();
-  const years = new Set<number>();
   const locations = new Set<string>();
   const formats = new Set<string>();
   const statuses = new Set<string>();
@@ -379,7 +377,6 @@ export async function getStockFilterOptions(): Promise<StockFilterOptions> {
   all.forEach((m) => {
     if (m.category) categories.add(m.category);
     if (m.brand) brands.add(m.brand);
-    if (m.year) years.add(m.year);
     if (m.location) locations.add(m.location);
     if (m.format) formats.add(m.format);
     if (m.status) statuses.add(m.status);
@@ -388,7 +385,6 @@ export async function getStockFilterOptions(): Promise<StockFilterOptions> {
   return {
     categories: [...categories].sort(),
     brands: [...brands].sort(),
-    years: [...years].sort((a, b) => b - a),
     locations: [...locations].sort(),
     formats: [...formats].sort(),
     statuses: [...statuses].sort(),
