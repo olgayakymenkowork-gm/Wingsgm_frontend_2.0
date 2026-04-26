@@ -11,9 +11,9 @@ import type { Metadata } from 'next'
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: Locale }>
+  params: Promise<{ lang: string }>
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = await params as { lang: Locale }
   const isDE = lang === 'de'
 
   const title = isDE
@@ -54,9 +54,9 @@ export async function generateMetadata({
 export default async function HomePage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await params;
+  const { lang } = await params as { lang: Locale };
   const [sliderItems, latestMachines, galleryItems, dict] = await Promise.all([
     getSliderItems(),
     getLatestMachines(6),

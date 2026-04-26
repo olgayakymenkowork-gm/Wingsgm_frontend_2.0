@@ -11,9 +11,9 @@ import type { Metadata } from 'next'
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: Locale; slug: string }>
+  params: Promise<{ lang: string; slug: string }>
 }): Promise<Metadata> {
-  const { lang, slug } = await params
+  const { lang, slug } = await params as { lang: Locale; slug: string }
   const m = await getMachineBySlug(slug)
 
   if (!m) return { title: 'Machine not found | WingsGM' }
@@ -70,9 +70,9 @@ export async function generateMetadata({
 export default async function MachinePage({
   params,
 }: {
-  params: Promise<{ lang: Locale; slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }) {
-  const { lang, slug } = await params;
+  const { lang, slug } = await params as { lang: Locale; slug: string };
 
   const [m, dict] = await Promise.all([
     getMachineBySlug(slug),

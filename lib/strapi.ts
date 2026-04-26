@@ -283,6 +283,7 @@ export interface StockMachine {
 export interface StockFilterOptions {
   categories: string[];
   brands: string[];
+  years: number[];
   locations: string[];
   formats: string[];
   statuses: string[];

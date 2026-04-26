@@ -8,9 +8,9 @@ import type { Metadata } from 'next'
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: Locale }>
+  params: Promise<{ lang: string }>
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = await params as { lang: Locale }
   const isDE = lang === 'de'
 
   const title = isDE
@@ -63,17 +63,18 @@ type Machine = {
 };
 
 interface StockListPageProps {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
   searchParams: Promise<SearchParams>;
 }
 
 export const dynamic = "force-dynamic";
 
 export default async function StockListPage(props: StockListPageProps) {
-  const [{ lang }, searchParams] = await Promise.all([
+  const [{ lang: langStr }, searchParams] = await Promise.all([
     props.params,
     props.searchParams,
   ]);
+  const lang = langStr as Locale;
 
   const dict = await getDictionary(lang);
   const p = dict.stock_page;
